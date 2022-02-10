@@ -2,20 +2,34 @@
 <html lang="en">
   <head>
     <title>Northern Sky Learning</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+      body {
+        margin: 0;
+      }
       #container {
+        height: 100vh;
+        white-space: nowrap;
         text-align: center;
+      }
+      .helper {
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
       }
       #logo {
         width: 50vh;
         height: 50vh;
+        vertical-align: middle;
       }
     </style>
   </head>
   <body>
     <div id="container">
+      <span class="helper"></span>
       <img id="logo" src="./logo.png" alt="Northern Sky Learning">
     </div>
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "5d6eb5937de6465cbb132ca7d2feca90"}'></script><!-- End Cloudflare Web Analytics -->
   </body>
 </html>
